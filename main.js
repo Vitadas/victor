@@ -28,13 +28,13 @@ function draw() {
     drops[i]++;
   }
 
-  // Adiciona o nome "Rafael" centralizado
+  // Adiciona o nome "victor" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
-  const textWidth = ctx.measureText('Rafael').width;
+  const textWidth = ctx.measureText('victor').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Rafael Assis Santos', x, y);
+  ctx.fillText('victor yuji chote mori', x, y);
 
   requestAnimationFrame(draw);
 }
